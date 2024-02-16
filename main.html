@@ -10,12 +10,12 @@
 
 <body>
 
-	<button type="button" class="btn btn-primary" id="open-modal" data-bs-toggle="newton-modal" data-bs-target="#newton-modal">
+	<button type="button" class="btn btn-primary" id="open-modal" data-bs-toggle="modal" data-bs-target="#newton-modal">
   Launch newton modal
 </button>
 
-	<div class="modal fade" id="newton-modal" tabindex="-1" aria-labelledby="newton-modalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+	<div class="modal fade show.bs.modal	" id="newton-modal" tabindex="-1" aria-labelledby="newton-modalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="newton-modalLabel">New Modal</h1>
@@ -24,7 +24,7 @@
       <div class="modal-body">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit velit in nisl consectetur, ac cursus odio posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut sit amet ante et ligula fermentum rhoncus. Sed in ex nulla. Mauris ac mi non magna lobortis laoreet a non quam. </p>  
 	  </div>
-      <div class="modal-footer">
+      <div class="modal-footer hide.bs.modal">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       
       </div>
